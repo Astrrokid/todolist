@@ -16,7 +16,7 @@ function TodoContainer() {
       {todoArray.length ? (
         <TodoItem todoItems={todoItems} />
       ) : (
-        <h1 className="noItem">No Item to display</h1>
+        <h1 className="noItem">NO TASK TO DO</h1>
       )}
     </div>
   );
